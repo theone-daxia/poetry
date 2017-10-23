@@ -1,14 +1,16 @@
 {
-    "name": "daxia/poetry",
+    "name": "theone-daxia/poetry",
     "description": "诗词产生类",
+    "type": "library",
     "authors": [
         {
             "name": "xiaoyu",
             "email": "xiaoyu.han@mfashion.com.cn"
         }
     ],
+    "minimum-stability": "dev",
+    "require": {},
     "autoload": {
         "psr-4": { "Daxia\\Poetry\\": "src/"  }
     }
 }
-

@@ -9,5 +9,6 @@ class PoetryGeneratorTest extends PHPUnit_Framework_TestCase
         $generator = new PoetryGenerator();
         $poetry = $generator->get();
         $this->assertThat($poetry, $this->isType('string'));
+        $this->assertInternalType('string', $poetry);
     }
 }
