@@ -68,7 +68,7 @@ class PoetryFormatter
         $title = array_shift($poetry);
         $title = '[ ' . $title . ' ]';
         $content = implode("\n", $poetry);
-        $res = $this->separator . "\n\n" . $title . "\n\n" . $content;
+        $res = $this->separator . "\n\n" . $title . "\n\n" . $content . "\n";
         return $res;
     }
 }
