@@ -19,6 +19,7 @@ class PoetryGenerator
     {
         $poetry_category = new PoetryCategory();
         $poetry = $poetry_category->getPoetry();
-        return strval($poetry['content']);
+        $poetry = $poetry['title'] . '.' . $poetry['content'];
+        return $poetry;
     }
 }

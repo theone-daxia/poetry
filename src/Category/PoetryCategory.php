@@ -19,7 +19,7 @@ class PoetryCategory
     {
         $this->poetry = [
             'title' => '舟夜书所见',
-            'content' => '月黑见渔灯，孤光一点萤。微微风簇浪，散作满河星。'
+            'content' => '月黑见渔灯,孤光一点萤.微微风簇浪,散作满河星.'
         ];
     }
 
